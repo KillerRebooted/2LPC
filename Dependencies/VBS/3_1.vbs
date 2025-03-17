@@ -198,7 +198,7 @@ WScript.sleep 100
 WshShell.Sendkeys "."
 WScript.sleep 100
 WshShell.Sendkeys "."
-WScript.sleep 1000
+WScript.sleep 900
 wshshell.sendkeys "{ENTER}"
 wshshell.sendkeys "exit"
 wshshell.sendkeys "{ENTER}"
