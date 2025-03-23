@@ -459,6 +459,8 @@ time.sleep(1)
 LbL("Or should we call it a day?", 0.1)
 time.sleep(1)
 
+clear()
+
 #VBS Interaction 6
 open_file("VBS/6.vbs")
 
@@ -479,4 +481,5 @@ time.sleep(1)
 clear()
 
 LbL("It was like a Human trying to control Nature which was never their's to control.", 0.1)
-LbL("When the Human overestimates himself, the Nature shows its true nature.")
+print()
+LbL("When the Human overestimates himself, the Nature shows its true nature.", 0.1)
