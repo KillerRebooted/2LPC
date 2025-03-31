@@ -464,7 +464,7 @@ clear()
 #VBS Interaction 6
 open_file("VBS/6.vbs")
 
-time.sleep(1)
+time.sleep(1.5)
 print("Ha ", end="")
 time.sleep(1)
 print(LbL("That's what I thought. ", 0.1), end="")
