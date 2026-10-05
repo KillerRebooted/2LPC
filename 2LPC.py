@@ -8,8 +8,9 @@ import getpass
 import datetime
 import cv2
 import win32api
+import subprocess
 
-clear = lambda: os.system('cls')
+clear = lambda: subprocess.run('cls', shell=True)
 
 #Get file path based on whether code is running as a Python Script or an Executable
 def get_path(relative_path):
@@ -460,6 +461,8 @@ LbL("Or should we call it a day?", 0.1)
 time.sleep(1)
 
 clear()
+
+exit
 
 #VBS Interaction 6
 open_file("VBS/6.vbs")
